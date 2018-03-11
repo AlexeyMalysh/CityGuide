@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- A 'parent' preference, which enables/disables child preferences (below)
+         when checked/unchecked. -->
+    <ListPreference
+        android:defaultValue="10"
+        android:key="location_radius"
+        android:entryValues="@array/pref_distance_values"
+        android:entries="@array/pref_distance_titles"
+        android:title="@string/pref_title_location_distance" />
+
+</PreferenceScreen>

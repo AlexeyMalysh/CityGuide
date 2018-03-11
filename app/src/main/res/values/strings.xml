@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">CityGuide</string>
+    <string name="title_activity_guide">CityGuide</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">City Guide</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="permission_location_rationale">Let us know where to search based on your location</string>
+    <string name="ok">OK</string>
+    <string name="permission_available_coarse_location">Location Access Permissions have been granted.</string>
+    <string name="permissions_not_granted">Permissions were not granted. Try searching be Zip in the Menu</string>
+
+    <!--SeekBar Menu Titles-->
+    <string name="menu_bar">Bar</string>
+    <string name="menu_bistro">Bistro</string>
+    <string name="menu_cafe">Cafe</string>
+
+    <string name="google_web_api_base_url">https://maps.googleapis.com/maps/api/place/nearbysearch/json?</string>
+    <string name="google_web_api_key">AIzaSyAN9A_M6Fb84fPCQNibK_sQJwuHf1qgpgw</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!--Zip Dialog-->
+    <string name="zip_dialog_title">Specify Zip Code</string>
+    <string name="zip_dialog_message">Enter the Zip code to search:</string>
+    <string name="zip_dialog_search_btn">Search</string>
+    <string name="zip_dialog_mine_btn">My Location</string>
+    <string name="zip_search_failed">Unable to find location based on Zipcode</string>
+    <string name="my_location_search_failed">Unable to find location based, try again later, or search be Zip</string>
+
+    <!--Errors-->
+    <string name="invalid_zip">Invalid Zipcode</string>
+
+    <!-- Strings related to Settings -->
+    <string name="pref_header_location">Location</string>
+
+    <string name="pref_title_location_distance">Search Radius</string>
+    <string-array name="pref_distance_titles">
+        <item>5 mi</item>
+        <item>10 mi</item>
+        <item>15 mi</item>
+        <item>20 mi</item>
+        <item>25 mi</item>
+        <item>30 mi</item>
+    </string-array>
+    <string-array name="pref_distance_values">
+        <item>8</item>
+        <item>16</item>
+        <item>24</item>
+        <item>32</item>
+        <item>40</item>
+        <item>48</item>
+    </string-array>
+</resources>

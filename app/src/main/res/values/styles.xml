@@ -1,0 +1,39 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    
+    <style name="MenuSelectedText">
+        <item name="android:textColor">@color/menuSelected</item>
+        <item name="android:textSize">@dimen/menu_title_size</item>
+    </style>
+
+    <style name="MenuDefaultText">
+        <item name="android:textColor">@color/defaultWhite</item>
+        <item name="android:textSize">@dimen/menu_title_size</item>
+    </style>
+    
+    <style name="PlaceTitle">
+        <item name="android:textColor">@color/textDark</item>
+        <item name="android:textSize">@dimen/place_title_size</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">marquee</item>
+    </style>
+
+    <style name="distanceLight">
+        <item name="android:textColor">@color/textLight</item>
+        <item name="android:textSize">@dimen/place_dest_size</item>
+    </style>
+
+</resources>
